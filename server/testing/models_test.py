@@ -1,6 +1,6 @@
 import pytest
 from sqlalchemy.exc import IntegrityError
-from app import app
+from server.app import app
 from models import db, Author, Post
 import logging
 from faker import Faker
